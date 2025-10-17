@@ -18,12 +18,12 @@ function About(){
         </span>
 
          {/* Card Wrapper */}
-         <div className='flex flex-col md:flex-row flex-grow md:flex-grow-1 md:gap-2 md:mx-2'>
+         <div className='flex flex-col  md:flex-row h-[88vh] md:flex-grow-1 md:gap-2 md:mx-2 items-stretch'>
 
-            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 md:mb-5">
+            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 md:mb-5 flex-1">
                <img src="./img1.png" className="w-10 h-10  mx-auto"></img>
                <span className='text-base text-[#A0A0A0] text-center'>Web Developer</span>
-               <span className='text-[#A0A0A0] text-xs text-center w-[90%] mx-auto'>Crafting fast, responsive websites and web apps that blend clean code with peak performance, 
+               <span className='text-[#A0A0A0] text-xs text-center w-[90%] mx-auto md:'>Crafting fast, responsive websites and web apps that blend clean code with peak performance, 
                   ensuring a smooth and engaging user experience.</span>
 
                <div className="flex flex-wrap items-center justify-center gap-2 mt-[1vh] w-[95%] mx-auto">
@@ -40,7 +40,7 @@ function About(){
                </div>   
             </div>   
 
-            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 md:mb-5">
+            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 md:mb-5 flex-1">
                <img src="./img1.png" className="w-10 h-10  mx-auto"></img>
                <span className='text-base text-[#A0A0A0] text-center'>UI/UX Designer</span>
                <span className='text-[#A0A0A0] text-xs text-center w-[90%] mx-auto'>Bringing visions to life through striking visuals and innovative design. I craft designs that captivate and inspire.</span>
@@ -55,7 +55,7 @@ function About(){
                </div>   
             </div>  
 
-            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 mb-5 md:mb-5">
+            <div className="flex flex-col flex-grow justify-evenly md:justify-start border-1  border-[#322727] w-[90%] md:w-[0px] mx-auto mt-[1.5vh] pb-1.5 mb-5 md:mb-5 flex-1">
                <img src="./img1.png" className="w-10 h-10  mx-auto"></img>
                <span className='text-base text-[#A0A0A0] text-center'>Graphic Designer</span>
                <span className='text-[#A0A0A0] text-xs text-center w-[90%] mx-auto '>Transforming ideas into stunning visuals with a keen eye for aesthetics, crafting designs that captivate, communicate, and leave a lasting impact.</span>
