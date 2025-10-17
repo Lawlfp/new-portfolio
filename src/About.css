@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.skill-tag {
+  @apply text-white bg-[#242424] text-xs font-bold px-1.5 py-[3px] rounded-md ;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 10s linear infinite;
+}

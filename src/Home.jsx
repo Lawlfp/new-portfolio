@@ -1,18 +1,14 @@
 import { useState } from 'react'
 
-import './App.css'
+import './Home.css'
+import Header from './Header'
 
 function App() {
 return(
   <div className='flex flex-col min-h-screen w-full bg-black '>
     
     {/* header */}
-    <div className="flex sticky top-0  mx-auto bg-black overflow-hidden z-2">
-      <span className="nav-item" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Home</span>
-      <span className="nav-item" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>About</span>
-      <span className="nav-item" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Projects</span>
-      <span className="nav-item" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Contact</span>
-    </div>
+    <Header />
 
     {/* picture */}
     <div className="relative w-30 h-30 md:w-[240px] md:h-[240px] mx-auto mt-[6vh] md:mt-[5vh]">
@@ -44,14 +40,14 @@ return(
         </div>
       </div>
     </div>
+
     {/* download cv button */}
     <button className="w-[120px] h-[33px] md:w-[180px] md:h-[48px] bg-white mx-auto flex items-center justify-center mt-[8vh] md:mt-[6vh] cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
-">
-  <span className="text-[13px] md:text-[18px] font-bold" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
-    Download CV
-  </span>
-</button>
-
+    ">
+      <span className="text-[13px] md:text-[18px] font-bold" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
+        Download CV
+      </span>
+    </button>
 
     {/* social media icons */}
     <div className="flex mx-auto mt-[10vh]  md:mt-[12vh]  gap-10 md:gap-20">
