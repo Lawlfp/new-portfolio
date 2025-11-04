@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 .skill-tag {
   @apply text-white bg-[#242424] text-xs font-bold px-1.5 py-[3px] rounded-md ;
 }

@@ -11,8 +11,8 @@ return(
     <Header />
 
     {/* picture */}
-    <div className="relative w-30 h-30 md:w-[240px] md:h-[240px] mx-auto mt-[6vh] md:mt-[5vh]">
-      <div className="absolute top-1/2 left-1/2 w-[160px] h-[160px] md:w-[320px] md:h-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(255,255,255,1)_0%,rgba(136,136,136,1)_30%,rgba(0,0,0,1)_100%)]"></div>
+    <div className="relative w-30 h-30 md:w-[180px] md:h-[180px] mx-auto mt-[6vh] md:mt-[5vh]">
+      <div className="absolute top-1/2 left-1/2 w-[160px] h-[160px] md:w-[240px] md:h-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(255,255,255,1)_0%,rgba(136,136,136,1)_30%,rgba(0,0,0,1)_100%)]"></div>
       <img
         src="me.png"
         className="relative w-full h-full rounded-full object-cover"
@@ -20,7 +20,7 @@ return(
     </div>
 
     {/* caption */}
-    <span className="text-[white] mx-auto mt-[5vh] md:mt-[5vh] text-2xl font-bold md:text-5xl z-3" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Hello, I am Christian Trio</span>
+    <span className="text-[white] mx-auto mt-[5vh] md:mt-[5vh] text-2xl font-bold md:text-4xl z-3" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Hello, I am Christian Trio</span>
     
     {/* location */}
     <div className="flex mx-auto mt-[6vh] md:mt-[5vh] items-center gap-1">
@@ -50,7 +50,7 @@ return(
     </button>
 
     {/* social media icons */}
-    <div className="flex mx-auto mt-[10vh]  md:mt-[12vh]  gap-10 md:gap-20">
+    <div className="flex mx-auto mt-[10vh]  md:mt-[10vh]  gap-10 md:gap-20">
       <button className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
         <img src="/github.png" alt="GitHub" className="social-img" />
       </button>
