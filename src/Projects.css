@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
 .tech-stack {
-  @apply text-white bg-[#242424] text-[8px] font-bold px-1.5 py-[2px] rounded-md ;
+  @apply text-white bg-[#242424] text-[8px] font-bold px-1.5 py-[2px] rounded-md 
+  md:text-[12px] md:px-[6px] md:py-[3px]
+  ;
 }
