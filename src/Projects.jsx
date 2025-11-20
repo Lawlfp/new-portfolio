@@ -91,7 +91,7 @@ function Projects() {
             <span className="text-2xl md:text-4xl text-white text-center underline decoration-4 underline-offset-10" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}> My Projects</span>
             <span className="text-[#B1B2B5]  text-center mt-5 text-xs w-[80%] mx-auto"> A collection of projects I’ve built and those I’ve contributed to or been part of.</span>
             
-            <div className="flex flex-col md:flex-col md:flex-wrap lg:flex-row  lg:justify-center    lg:max-w-[95rem] lg:mx-auto lg:gap-y-8">
+            <div className="flex flex-col md:flex-col md:flex-wrap lg:flex-row  lg:justify-center    lg:max-w-[95rem] lg:mx-auto lg:gap-y-8 lg:mb-7">
             {/* Card 1 */}
             <div className="w-80 md:w-170 h-auto mx-auto   border-[1px] border-[#222] mt-5 bg-[#0A0A0A] rounded-[8px]">
 
@@ -214,7 +214,7 @@ function Projects() {
             </div>
 
             {/* Card 4 */}
-            <div  className="w-80 md:w-170 h-auto mx-auto   border-[1px] border-[#222] mt-5 bg-[#0A0A0A] rounded-[8px] mb-5">
+            <div  className="w-80 md:w-170 h-auto mx-auto   border-[1px] border-[#222] mt-5 bg-[#0A0A0A] rounded-[8px] ">
 
                 <div onClick={() => toggleFullscreen(Card4Index,Card4)} className={"w-70 h-50 md:w-140 md:h-79 " + Card4[Card4Index] + " mx-auto mt-3 md:mt-8 relative flex items-center justify-between px-3 bg-contain bg-no-repeat bg-center"}>
                     <button onClick={(e) => {
