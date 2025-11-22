@@ -1,4 +1,5 @@
 import Header from "./Header";
+import './Contact.css';
 
 function Contact(){
     return(
@@ -10,13 +11,13 @@ function Contact(){
         
 
             <span
-              className="text-2xl md:text-4xl text-white text-center underline decoration-4 underline-offset-10"
+              className="fade-down text-2xl md:text-4xl text-white text-center underline decoration-4 underline-offset-10"
               style={{ fontFamily: "'Source Sans Pro', sans-serif" }}
             >
               Contact
             </span>
 
-            <span className="text-[#B1B2B5]  text-center mt-5 text-xs w-[80%] mx-auto">
+            <span className="fade-down text-[#B1B2B5] text-sm mx-auto text-center w-[80%] h-auto mt-[2vh]  md:mt-[3vh]">
               Open to collaborations, project inquiries, and interesting conversations.
               I typically respond within 24–48 hours.
             </span>
@@ -26,8 +27,8 @@ function Contact(){
 
           {/* Email */}
           <a
-            href="mailto:your.email@example.com"
-            className="w-[80%]  mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
+            href="mailto:christianjobtrio@gmail.com"
+            className="fade-down  w-[80%]  mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
                        hover:bg-white/[0.06] hover:border-white/20 hover:-translate-y-0.5 
                        transition-all duration-300"
           >
@@ -43,9 +44,10 @@ function Contact(){
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Lawlfp"
             target="_blank"
-            className="w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
+            style={{ animationDelay: "150ms" }}
+            className="fade-down w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
                        hover:bg-white/[0.06] hover:border-white/20 hover:-translate-y-0.5 
                        transition-all duration-300"
           >
@@ -72,9 +74,10 @@ function Contact(){
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/christian-job-trio-9886a4297/"
             target="_blank"
-            className="w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
+            style={{ animationDelay: "300ms" }}
+            className="fade-down w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
                        hover:bg-white/[0.06] hover:border-white/20 hover:-translate-y-0.5 
                        transition-all duration-300"
           >
@@ -101,8 +104,9 @@ function Contact(){
 
           {/* Phone */}
           <a
-            href="tel:+1234567890"
-            className="w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
+            href="tel:+639193742540"
+            style={{ animationDelay: "450ms" }}
+            className="fade-down w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
                        hover:bg-white/[0.06] hover:border-white/20 hover:-translate-y-0.5 
                        transition-all duration-300"
           >
@@ -126,9 +130,10 @@ function Contact(){
 
           {/* Facebook */}
           <a
-            href="https://facebook.com/yourusername"
+            href="https://www.facebook.com/triochristianjob"
             target="_blank"
-            className="w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
+            style={{ animationDelay: "600ms" }}
+            className="fade-up w-[80%] mx-auto flex items-center gap-4 p-4 md:p-5 bg-white/[0.03] border border-white/10 rounded-lg 
                        hover:bg-white/[0.06] hover:border-white/20 hover:-translate-y-0.5 
                        transition-all duration-300"
           >

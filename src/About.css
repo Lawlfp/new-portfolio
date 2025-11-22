@@ -5,12 +5,55 @@
   @apply text-white bg-[#242424] text-xs font-bold px-1.5 py-[3px] rounded-md ;
 }
 
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+.diagonal-border {
+  position: relative;
 }
 
-.animate-marquee {
-  display: inline-flex;
-  animation: marquee 10s linear infinite;
+.diagonal-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #322727; /* same as border-1 border-[#322727] */
+  pointer-events: none;
+
+  /* Start clipped to a tiny diagonal point */
+  clip-path: polygon(
+    0% 0%,   /* top-left */
+    0% 0%,   /* top-left */
+    0% 0%,   /* top-left */
+    0% 0%    /* top-left */
+  );
+
+  animation: diagonal-draw 1.2s ease-out forwards;
+}
+
+@keyframes diagonal-draw {
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      0% 0%,
+      0% 0%,
+      0% 0%
+    );
+  }
+
+  50% {
+    /* halfway: reveal top and left sides expanding diagonally */
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 0%,
+      0% 100%
+    );
+  }
+
+  100% {
+    /* full border visible */
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    );
+  }
 }

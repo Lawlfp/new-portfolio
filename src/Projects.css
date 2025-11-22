@@ -4,4 +4,20 @@
   @apply text-white bg-[#242424] text-[8px] font-bold px-1.5 py-[2px] rounded-md 
   md:text-[12px] md:px-[6px] md:py-[3px]
   ;
+  
+}
+body{
+  overflow-y: scroll;
+}
+@keyframes slideUpOnly {
+  0% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-up-only {
+  animation: slideUpOnly 0.45s ease-out forwards;
 }
