@@ -14,7 +14,7 @@
     <div className="relative w-30 h-30 md:w-[180px] md:h-[180px] mx-auto mt-[6vh] md:mt-[5vh] fade-up">
       <div className="absolute top-1/2 left-1/2 w-[160px] h-[160px] md:w-[240px] md:h-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(255,255,255,1)_0%,rgba(136,136,136,1)_30%,rgba(0,0,0,1)_100%)]"></div>
       <img
-        src="me.png"
+        src="/me.png"
         className="relative w-full h-full rounded-full object-cover"
       />
     </div>
