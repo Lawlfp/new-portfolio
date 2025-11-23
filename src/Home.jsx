@@ -42,26 +42,27 @@
     </div>
 
     {/* download cv button */}
-    <button className="fade-up w-[120px] h-[33px] md:w-[180px] md:h-[48px] bg-white mx-auto flex items-center justify-center mt-[8vh] md:mt-[6vh] cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
+    <a href="/ChristianTrioCV.docx"
+        download="ChristianTrioCV.docx" className="fade-up w-[120px] h-[33px] md:w-[180px] md:h-[48px] bg-white mx-auto flex items-center justify-center mt-[8vh] md:mt-[6vh] cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
     ">
       <span className="text-[13px] md:text-[18px] font-bold" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
         Download CV
       </span>
-    </button>
+    </a>
 
     {/* social media icons */}
     <div className="flex mx-auto mt-[10vh]  md:mt-[10vh]  gap-10 md:gap-20 fade-up">
-      <button className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
+      <a href="https://github.com/Lawlfp" className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
         <img src="/github.png" alt="GitHub" className="social-img" />
-      </button>
+      </a>
 
-      <button className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
+      <a href="https://www.linkedin.com/in/christian-job-trio-9886a4297/" className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
         <img src="/linkedin.png" alt="LinkedIn" className="social-img" />
-      </button>
+      </a>
 
-      <button className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
+      <a href="mailto:christianjobtrio@gmail.com" className="social-btn transition-transform duration-300 hover:scale-110 hover:opacity-80">
         <img src="/mail.png" alt="Mail" className="social-img" />
-      </button>
+      </a>
 
 
     </div>
