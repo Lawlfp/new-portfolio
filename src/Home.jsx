@@ -42,8 +42,8 @@
     </div>
 
     {/* download cv button */}
-    <a href="/ChristianTrioCV.docx"
-        download="ChristianTrioCV.docx" className="fade-up w-[120px] h-[33px] md:w-[180px] md:h-[48px] bg-white mx-auto flex items-center justify-center mt-[8vh] md:mt-[6vh] cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
+    <a href="/ChristianTrioCV.pdf"
+        download="ChristianTrioCV.pdf" className="fade-up w-[120px] h-[33px] md:w-[180px] md:h-[48px] bg-white mx-auto flex items-center justify-center mt-[8vh] md:mt-[6vh] cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
     ">
       <span className="text-[13px] md:text-[18px] font-bold" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
         Download CV
